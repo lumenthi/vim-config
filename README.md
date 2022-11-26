@@ -9,10 +9,12 @@ Deploy my vim configuration anywhere with a single script
 ### .vimrc
 - Edit the `config` then re-run the install script `./install` if more custom shortcuts are needed
 ### 42 Header
-- Configuration if you need to use the 42 header plugin (F2 by default): 
-  - Configure the 42 user by changing value at [this](https://github.com/lumenthi/vim-config/blob/master/plugins/stdheader.vim#L82) line before running the `./install` script
-  - The email can also be changed by change value at [this](https://github.com/lumenthi/vim-config/blob/master/plugins/stdheader.vim#L87) line before running the `./install` script
-  - Header's keybind can be changed [here](https://github.com/lumenthi/vim-config/blob/master/plugins/stdheader.vim#L136)
+ - Change user, email and also keybind of the header in the `config` file
+```
+let g:user42 = "lumenthi"
+let g:mail42 = "lumenthi@student.42.fr"
+map <F2> :Stdheader<CR>
+```
 ### Sublivim
 - For more information about shortcuts and features available, be sure to check the [Sublivim](https://github.com/reversTeam/Sublivim) repo !
 
