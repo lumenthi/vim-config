@@ -1,9 +1,5 @@
 let g:syntastic_c_include_dirs = ['../../../include', '../../include','../include','./include']
 
-command! Stdheader call s:stdheader ()
-map <F2> :Stdheader<CR>
-autocmd BufWritePre * call s:update ()
-
 :map <F5> :NextColorScheme<CR>
 :map <F4> :PrevColorScheme<CR>
 autocmd VimEnter * colorscheme molokai

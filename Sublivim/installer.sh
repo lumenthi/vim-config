@@ -6,7 +6,7 @@ null() {
 	"$@" >/dev/null 2>&1
 }
 
-cp ./Sublivim ~/.Sublivim
+cp -r ./Sublivim ~/.Sublivim
 cd ~
 
 if [ -d $HOME/.vim ] && [ -f $HOME/.vimrc ]; then

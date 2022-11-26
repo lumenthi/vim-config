@@ -142,3 +142,8 @@ function! s:stdheader()
 		call s:insert()
 	endif
 endfunction
+
+" Bind command and shortcut
+command! Stdheader call s:stdheader ()
+map <F2> :Stdheader<CR>
+autocmd BufWritePre * call s:update ()
