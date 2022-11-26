@@ -9,6 +9,7 @@ cd ~/.vim/bundle
 git clone https://github.com/xolox/vim-misc
 git clone https://github.com/xolox/vim-colorscheme-switcher
 git clone https://github.com/flazz/vim-colorschemes
+git clone https://github.com/KurtPreston/vimcolors.git
 git clone https://github.com/enricobacis/vim-airline-clock
 git clone https://github.com/42Paris/42header.git
 cd -
