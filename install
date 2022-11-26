@@ -1,0 +1,15 @@
+#!/bin/sh
+
+# Sublivim install
+sh ./Sublivim/installer.sh
+
+# Plugins install
+cd ~/.vim/bundle
+git clone https://github.com/xolox/vim-colorscheme-switcher
+git clone https://github.com/flazz/vim-colorschemes
+git clone https://github.com/enricobacis/vim-airline-clock
+git clone https://github.com/42Paris/42header.git
+cp plugins/stdheader.vim ~/.vim/bundle/42header/plugin/stdheader.vim
+
+# Config
+cp config ~/.Sublivim/config_perso
