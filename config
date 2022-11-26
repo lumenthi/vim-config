@@ -1,5 +1,6 @@
 let g:syntastic_c_include_dirs = ['../../../include', '../../include','../include','./include']
 
-:map <F5> :NextColorScheme<CR>
-:map <F4> :PrevColorScheme<CR>
-autocmd VimEnter * colorscheme molokai
+:map <F3> :PrevColorScheme<CR>
+:map <F5> :colorscheme random<CR>
+:map <F4> :NextColorScheme<CR>
+autocmd VimEnter * colorscheme hashpunk-sw
