@@ -10,12 +10,10 @@ cp -r ./Sublivim ~/.Sublivim
 cd ~
 
 if [ -d $HOME/.vim ] && [ -f $HOME/.vimrc ]; then
-	echo "Sauvegarde de vos anciennes configurations Vim : ~/old-conf-vim.tar"
 	tar -cf .old-conf-vim.tar .vim .vimrc
 	rm -rf .vim .vimrc
 fi
 
-echo "Installation du Sublivim"
 ln -s .Sublivim/vimrc $HOME/.vimrc
 ln -s .Sublivim/vim $HOME/.vim
 if [ ! -e ~/.Sublivim/config_perso ]; then
