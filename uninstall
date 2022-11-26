@@ -1,0 +1,8 @@
+#!/bin/sh
+set -x #echo on
+
+# Sublivim uninstall
+sh ./Sublivim/uninstall.sh
+
+# Remove tar
+rm -rf ~/.old-conf-vim.tar

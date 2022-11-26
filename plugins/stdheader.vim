@@ -79,24 +79,12 @@ function! s:line(n)
 endfunction
 
 function! s:user()
-	if exists('g:user42')
-		return g:user42
-	endif
-	let l:user = $USER
-	if strlen(l:user) == 0
-		let l:user = "marvin"
-	endif
+	let l:user = "lumenthi"
 	return l:user
 endfunction
 
 function! s:mail()
-	if exists('g:mail42')
-		return g:mail42
-	endif
-	let l:mail = $MAIL
-	if strlen(l:mail) == 0
-		let l:mail = "marvin@42.fr"
-	endif
+	let l:mail = "lumenthi@student.42.fr"
 	return l:mail
 endfunction
 

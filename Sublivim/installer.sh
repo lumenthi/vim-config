@@ -11,7 +11,7 @@ cd ~
 
 if [ -d $HOME/.vim ] && [ -f $HOME/.vimrc ]; then
 	echo "Sauvegarde de vos anciennes configurations Vim : ~/old-conf-vim.tar"
-	tar -cf old-conf-vim.tar .vim .vimrc
+	tar -cf .old-conf-vim.tar .vim .vimrc
 	rm -rf .vim .vimrc
 fi
 
