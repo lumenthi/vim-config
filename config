@@ -3,7 +3,7 @@ let g:syntastic_c_include_dirs = ['../../../include', '../../include','../includ
 :map <F3> :PrevColorScheme<CR>
 :map <F5> :colorscheme random<CR>
 :map <F4> :NextColorScheme<CR>
-autocmd VimEnter * colorscheme hashpunk-sw
+autocmd VimEnter * colorscheme hashpunk-sweet
 
 let g:user42 = "lumenthi"
 let g:mail42 = "lumenthi@student.42.fr"
